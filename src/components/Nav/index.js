@@ -1,51 +1,67 @@
-import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import React from 'react';
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected
-  } = props;
+// TODO: Add a comment explaining how we are able to extract the key value pairs from props
 
+function Nav ({ currentPage, handlePageChange }) {
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Projects!
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#home"
+          onClick={() => handlePageChange('About')}
+          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-          </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${currentCategory.name === category.name && !contactSelected && `navActive`
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          Anika McLean
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+        >
+          Blog
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          //  TODO: Add a comment explaining what this logic is doing
+
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          //  TODO: Add a comment explaining what this logic is doing
+
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
   );
 }
 
-export default Nav;
+export default NavTabs;
