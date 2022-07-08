@@ -1,5 +1,5 @@
-import React from "react";
-import Header from "./components/Header";
+import React, { useState } from "react";
+// import Header from "./components/Header";
 import About from "./components/About";
 import Nav from "../Nav"
 import Projects from "./components/Projects";
@@ -15,7 +15,7 @@ const Header = () => {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Projects') {
+    if (currentPage === 'Portfolio') {
       return <Projects />;
     }
     if (currentPage === 'Contact') {
