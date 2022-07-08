@@ -57,11 +57,11 @@ function Nav ({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          Resume
         </a>
       </li>
     </ul>
   );
 }
 
-export default NavTabs;
+export default Nav;

@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const Projects = () => {
-  const [currentProject, setCurrentProject] = useState();
 
   const [projectCards] = useState([
     {
@@ -72,8 +71,9 @@ const Projects = () => {
     },
   ]);
 
+  
   return (
-    <div>
+    <div classNmae="projects-container">
       <div className="d-flex flex-wrap ">
         {projectCards.map((element, i) => (
           <Card style={{ width: "18rem" }}>

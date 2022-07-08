@@ -1,15 +1,15 @@
 import React from 'react';
-import Projects from '../Projects';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import Projects from '../Projects'
 
-function Portfolio(props) {
-  const { currentCategory } = props;
+const Portfolio = () => {
   return (
-    <section>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
-      <Projects category={currentCategory.name} />
-    </section>
+    <div>
+      <h1 className="portHeader text-center">Projects</h1>
+      <div>
+        <Project />
+      </div>
+    </div>
   );
-}
+};
+
 export default Portfolio; 
