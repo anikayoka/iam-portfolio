@@ -48,8 +48,16 @@ header {
   color: #f3fffee1;
 }
 
-/* NAVIGATION */
+/* a {
+  color: var(--dark);
+  text-decoration: none;
+}
 
+a:visited {
+  color: inherit;
+} */
+
+/* NAVIGATION */
 nav {
   width: 100%;
 }
@@ -150,6 +158,15 @@ nav {
   color: var(--secondary);
 }
 
+.resLink a {
+    color: var(--dark);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+
 .resWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -172,5 +189,19 @@ ul {
 
 footer {
   background-color: var(--primary);
+  color: #f3fffee1;
+}
+
+.gitFooter {
+  color: var(--secondary);
+  margin-left: 50%;
+  margin-top: -2.5%;
+}
+
+/* .gitIcon {
+  color: var(--secondary);
+} */
+
+.gitIcon:hover {
   color: #f3fffee1;
 }

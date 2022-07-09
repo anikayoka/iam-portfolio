@@ -1,9 +1,13 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="w-100 mt-auto p-4">
+    <footer className="footerWrapper w-100 mt-auto p-4">
       <div className="container">&copy;2022 by Anika McLean</div>
+      <div className="gitFooter">
+        <a target="_blank" rel="noreferrer" href="https://github.com/anikayoka" className="gitIcon"> <FaGithub /> </a>
+      </div>
     </footer>
   );
 
