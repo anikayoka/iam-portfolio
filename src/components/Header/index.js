@@ -14,10 +14,10 @@ const Header = (props) => {
 
   return (
     <div className="mb-3">
-      <header className="py-2">
+      <header className="py-1">
         <div className="">
-          <div className="header-container">
-            <div className="text-left">
+          <div className="container">
+            <div className="text-center">
               <h1 className="navTitle">Anika McLean</h1>
               <nav className="text-right">
                 <Nav categories={categories}

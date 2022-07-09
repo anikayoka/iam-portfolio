@@ -4,9 +4,9 @@ import Projects from '../Projects'
 const Portfolio = () => {
   return (
     <div>
-      <h1 className="portHeader text-center">Projects</h1>
+      <h2 className="portHeader text-center">Projects</h2>
       <div>
-        <Project />
+        <Projects />
       </div>
     </div>
   );

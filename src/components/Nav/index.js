@@ -7,7 +7,7 @@ const Nav = (props) => {
   return (
     <div className="navbar">
       {categories.map((category) => (
-        <li className={`nav px-1 mt-3 col-3 ${  currentCategory === category.name && "enteredNav" }`} key={category.name}>
+        <li className={`nav mt-3 ${  currentCategory === category.name && "enteredNav" }`} key={category.name}>
           <span onClick={() => {setCurrentCategory(category.name); }}>{category.name}</span>
         </li>
       ))}

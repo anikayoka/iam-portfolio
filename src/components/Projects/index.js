@@ -14,7 +14,7 @@ const Projects = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
-      name: "Grocery booth",
+      name: "Health Buddy",
       image: "/assets/commercial.PNG",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
@@ -22,7 +22,7 @@ const Projects = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
-      name: "Building exterior",
+      name: "Budget Tracker",
       image: "/assets/commercial.PNG",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
@@ -30,7 +30,7 @@ const Projects = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
-      name: "Restaurant table",
+      name: "Food Festival",
       image: "/assets/commercial.PNG",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
@@ -38,7 +38,7 @@ const Projects = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
-      name: "Cafe interior",
+      name: "Scheduler",
       image: "/assets/commercial.PNG",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
@@ -46,23 +46,7 @@ const Projects = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
-      name: "Cat green eyes",
-      image: "/assets/commercial.PNG",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Green parrot",
-      image: "/assets/commercial.PNG",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Yellow macaw",
+      name: "DineINside",
       image: "/assets/commercial.PNG",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
@@ -73,7 +57,7 @@ const Projects = () => {
 
   
   return (
-    <div classNmae="projects-container">
+    <div className="projects-container">
       <div className="d-flex flex-wrap ">
         {projectCards.map((element, i) => (
           <Card style={{ width: "18rem" }}>
@@ -87,7 +71,7 @@ const Projects = () => {
               <Card.Title>{element.name}</Card.Title>
               <Card.Text> {element.description}</Card.Text>
               <a href={element.github}>
-                <Button variant="primary">github</Button>
+                <Button className="projectBtn">github</Button>
               </a>
             </Card.Body>
           </Card>
