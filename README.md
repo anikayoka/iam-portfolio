@@ -19,7 +19,7 @@
 
   ## Links
 
-  * [Deployed](https://github.com/anikayoka/iam-portfolio)
+  * [Deployed]( https://anikayoka.github.io/iam-portfolio/)
 
   * [Github](https://github.com/anikayoka/iam-portfolio)
 
@@ -47,3 +47,9 @@
   ## Questions
 
   If you have any questions about the repo contact me via email at aniokadesigns@gmail.com. You can check out more of my work on my [Github Profile](https://github.com/anikayoka)
+
+   ## Author
+
+  Made with ❤️ by Anika Ayoka
+  
+  ### ©️2022 I AM Portfolio
