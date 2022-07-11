@@ -1,4 +1,4 @@
-# I AM (AnikaMcLean) Portfolio
+# I AM (Anika McLean) Portfolio
 
 
  ![badge](https://img.shields.io/badge/license-MIT-blue)
@@ -26,16 +26,13 @@
   
   ## Srcreenshots
   
- <img width="1440" alt="Screen Shot 2022-06-28 at 10 09 43 PM" src="https://user-images.githubusercontent.com/88905488/176336418-c0ba8e24-fbb4-40af-a7bc-d3b4ae8f0ce5.png">
+![screencapture-localhost-3000-2022-07-11-00_23_30](https://user-images.githubusercontent.com/88905488/178190204-e96c193c-e070-426f-a06b-6bf9067a616c.png)
 
-<img width="1440" alt="Screen Shot 2022-06-28 at 10 09 53 PM" src="https://user-images.githubusercontent.com/88905488/176336464-d72a1c5d-4607-486c-bca2-e6a65c6ec3a9.png">
+![screencapture-localhost-3000-2022-07-11-00_23_53](https://user-images.githubusercontent.com/88905488/178190246-3fb0551b-0632-4e98-961c-3bdd373fb34f.png)
 
-<img width="1440" alt="Screen Shot 2022-06-28 at 10 09 59 PM" src="https://user-images.githubusercontent.com/88905488/176336521-2b17a09e-e8b4-4fad-b865-d3e353042c49.png">
+![screencapture-localhost-3000-2022-07-11-00_24_08](https://user-images.githubusercontent.com/88905488/178190284-882cc8cf-13c6-4340-848f-47c4f0928297.png)
 
-<img width="1440" alt="Screen Shot 2022-06-28 at 10 10 09 PM" src="https://user-images.githubusercontent.com/88905488/176336575-8c0f8de7-d26b-4777-8db3-bfe71f5f7bc5.png">
-
-<img width="1440" alt="Screen Shot 2022-06-27 at 9 37 30 PM" src="https://user-images.githubusercontent.com/88905488/176336769-97cf1e1f-73db-4f6a-a6d8-048d7f68cd83.png">
-
+![screencapture-localhost-3000-2022-07-11-00_25_31](https://user-images.githubusercontent.com/88905488/178190309-5334ac30-bc5e-4bc8-b9fc-76c05e5fd075.png)
   
   
   ## License
