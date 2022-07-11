@@ -22,12 +22,12 @@ const Projects = () => {
         "An app where users can diagnose symtoms and have access to medical professionals.",
     },
     {
-      name: "Budget Tracker",
-      image: "./assets/images/budgetA.png",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
+      name: "Code Quiz",
+      image: "./assets/images/quiz.png",
+      deployed: " https://anikayoka.github.io/code-quiz/",
+      github: "https://github.com/anikayoka/code-quiz",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "A timed quiz application built with CSS, HTML, JavaScript & web APIs that tests users' coding knowledge.",
     },
     {
       name: "Food Festival",
@@ -35,7 +35,7 @@ const Projects = () => {
       deployed: "https://anikayoka.github.io/food-festival/",
       github: "https://github.com/anikayoka/food-festival",
       description:
-        "Progressive Web Application (PWA) designed for a food festival.",
+        "Progressive Web Application (PWA) designed for patrons of a food festival, allowing offline capabilities.",
     },
     {
       name: "React Photo",
@@ -43,7 +43,7 @@ const Projects = () => {
       deployed: "https://anikayoka.github.io/react-photo-port/",
       github: "https://github.com/anikayoka/react-photo-port",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "A single page application portfolio site built with React where users can view photographic work .",
     },
     {
       name: "DineINside",
@@ -65,6 +65,7 @@ const Projects = () => {
               <Card.Img
                 variant="top"
                 src={process.env.PUBLIC_URL + element.image}
+                alt={element.name}
               />
             </a>
             <Card.Body>

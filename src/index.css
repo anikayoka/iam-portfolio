@@ -145,6 +145,7 @@ nav {
 
 .projectBtn {
   background-color: #dd2e44;
+  bottom: 0;
 }
 
 .portHeader {
@@ -160,6 +161,7 @@ nav {
   display: block;
   font-weight: bolder;
   text-align: center;
+  text-decoration: none;
 }
 
 .resLink:hover {
