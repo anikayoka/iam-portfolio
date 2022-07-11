@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# I AM (AnikaMcLean) Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+ ![badge](https://img.shields.io/badge/license-MIT-blue)
+    
 
-In the project directory, you can run:
+  ## Description
+  A single page application portfolio site highlighting projects I have worked on.
 
-### `npm start`
+ ## User Story
+ - AS AN employer looking for candidates with experience building single-page applications
+ - I WANT to view a potential employee's deployed React portfolio of work samples
+ - SO THAT I can assess whether they're a good candidate for an open position
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ## Built With
 
-### `npm test`
+ * React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## Links
 
-### `npm run build`
+  * [Deployed](https://github.com/anikayoka/iam-portfolio)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * [Github](https://github.com/anikayoka/iam-portfolio)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
+  ## Srcreenshots
+  
+ <img width="1440" alt="Screen Shot 2022-06-28 at 10 09 43 PM" src="https://user-images.githubusercontent.com/88905488/176336418-c0ba8e24-fbb4-40af-a7bc-d3b4ae8f0ce5.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1440" alt="Screen Shot 2022-06-28 at 10 09 53 PM" src="https://user-images.githubusercontent.com/88905488/176336464-d72a1c5d-4607-486c-bca2-e6a65c6ec3a9.png">
 
-### `npm run eject`
+<img width="1440" alt="Screen Shot 2022-06-28 at 10 09 59 PM" src="https://user-images.githubusercontent.com/88905488/176336521-2b17a09e-e8b4-4fad-b865-d3e353042c49.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1440" alt="Screen Shot 2022-06-28 at 10 10 09 PM" src="https://user-images.githubusercontent.com/88905488/176336575-8c0f8de7-d26b-4777-8db3-bfe71f5f7bc5.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1440" alt="Screen Shot 2022-06-27 at 9 37 30 PM" src="https://user-images.githubusercontent.com/88905488/176336769-97cf1e1f-73db-4f6a-a6d8-048d7f68cd83.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  
+  
+  ## License
+    The application is covered under the following license:
+      
+  [MIT Guidelines](https://choosealicense.com/licenses/)
+      
+  ## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  There are no guidelines for contributing at this time. undefined
 
-## Learn More
+  ## Questions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  If you have any questions about the repo contact me via email at aniokadesigns@gmail.com. You can check out more of my work on my [Github Profile](https://github.com/anikayoka)
