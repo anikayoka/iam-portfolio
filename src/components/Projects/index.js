@@ -40,7 +40,7 @@ const Projects = () => {
     {
       name: "React Photo",
       image: "/assets/images/photoA.png",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
+      deployed: "https://anikayoka.github.io/react-photo-port/",
       github: "https://github.com/anikayoka/react-photo-port",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
