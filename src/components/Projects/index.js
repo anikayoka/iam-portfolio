@@ -7,23 +7,23 @@ const Projects = () => {
   const [projectCards] = useState([
     {
       name: "Weather Tracker",
-      image: "/assets/commercial.PNG",
+      image: "/assets/images/weatherA.png",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Weather dashboard application using APIs to retrieve weather data for cities worldwide.",
     },
     {
       name: "Health Buddy",
-      image: "/assets/commercial.PNG",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
+      image: "/assets/images/healthA.png",
+      deployed: "https://health-buddy-group3.herokuapp.com/",
+      github: "https://github.com/healthree/health-buddy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "An app where users can diagnose symtoms and have access to medical professionals.",
     },
     {
       name: "Budget Tracker",
-      image: "/assets/commercial.PNG",
+      image: "./assets/images/budgetA.png",
       deployed: " https://anikayoka.github.io/weather-or-not/",
       github: "https://github.com/anikayoka/weather-or-not",
       description:
@@ -31,36 +31,36 @@ const Projects = () => {
     },
     {
       name: "Food Festival",
-      image: "/assets/commercial.PNG",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
+      image: "/assets/images/foodA.PNG",
+      deployed: "https://anikayoka.github.io/food-festival/",
+      github: "https://github.com/anikayoka/food-festival",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Progressive Web Application (PWA) designed for a food festival.",
     },
     {
-      name: "Scheduler",
-      image: "/assets/commercial.PNG",
+      name: "React Photo",
+      image: "/assets/images/photoA.png",
       deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
+      github: "https://github.com/anikayoka/react-photo-port",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
     },
     {
       name: "DineINside",
-      image: "/assets/commercial.PNG",
-      deployed: " https://anikayoka.github.io/weather-or-not/",
-      github: "https://github.com/anikayoka/weather-or-not",
+      image: "/assets/images/dineINa.png",
+      deployed: "https://weareteam8.github.io/DineInside/",
+      github: "https://github.com/weareteam8/DineInside",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "A site designed to allow users to create cocktails and meals in the comfort og their homes.",
     },
   ]);
 
   
   return (
     <div className="projects-container">
-      <div className="d-flex flex-wrap ">
+      <div className="projectCard d-flex">
         {projectCards.map((element, i) => (
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "12rem" }}>
             <a href={element.deployed}>
               <Card.Img
                 variant="top"
@@ -71,17 +71,10 @@ const Projects = () => {
               <Card.Title>{element.name}</Card.Title>
               <Card.Text> {element.description}</Card.Text>
               <a href={element.github}>
-                <Button className="projectBtn">github</Button>
+                <Button className="projectBtn">Github</Button>
               </a>
             </Card.Body>
           </Card>
-          // <img
-          //   src={require(`../../assets/small/${category}/${i}.jpg`)}
-          //   alt={image.name}
-          //   className="img-thumbnail mx-1"
-          //   onClick={() => toggleModal(image, i)}
-          //   key={image.name}
-          // />
         ))}
       </div>
     </div>

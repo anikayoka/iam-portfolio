@@ -8,6 +8,8 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
+
+  // Form Submission
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {

@@ -104,6 +104,7 @@ nav {
 
 .aboutSpan {
   color: #900202;
+  padding: 0 2;
 }
 
 /* CONTACT */
@@ -118,19 +119,23 @@ nav {
 /* PROJECTS */
 
 .card {
-  margin: 0 0 20px 0;
-  border: 2px solid var(--primary);
+  margin: 30px 5px 68px 37px;
+  border: 2px solid var(--secondary);
   border-radius: var(--border-radius);
-  background-color: var(--light);
-  color: var(--dark);
+  /* background-color: var(--secondary); */
+  color: #f3fffee1;
 }
 
-.card-header {
-  color: var(--secondary);
+.card-title {
+  color: #ee6945;
   margin: 0;
-  background-color: var(--dark);
   padding: 0.625rem;
-  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  font-size: 30px;
+  font-weight: bolder;
+  /* border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0; */
+}
+.card-text {
+  color: var(--primary);
 }
 
 .card-body {
@@ -139,9 +144,12 @@ nav {
 }
 
 .projectBtn {
-  background-color: #900202;
+  background-color: #dd2e44;
 }
 
+.portHeader {
+  margin-top: 1.5%;
+}
 /* RESUME */
 
 .resLink {
@@ -192,16 +200,50 @@ footer {
   color: #f3fffee1;
 }
 
-.gitFooter {
+.footerList {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
   color: var(--secondary);
-  margin-left: 50%;
   margin-top: -2.5%;
+  margin-left: 2%;
 }
 
-/* .gitIcon {
-  color: var(--secondary);
-} */
+.footerList li {
+  position: relative;
+  list-style: none;
+}
 
-.gitIcon:hover {
+.gitIcon,
+.telIcon,
+.emailIcon
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* bottom: 0; */
+  color: var(--secondary);
+}
+
+.gitIcon:hover,
+.telIcon:hover,
+.emailIcon:hover {
   color: #f3fffee1;
+}
+
+.reactIcon {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  color: #f3fffee1;
+  /* margin-left: 80%; */
+  margin-top: -2%;
+}
+
+.fareact {
+  padding: 0 0 0 3px ;
+  color: var(--secondary);
 }
