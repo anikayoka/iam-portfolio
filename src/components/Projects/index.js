@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       name: "Food Festival",
-      image: "/assets/images/foodA.PNG",
+      image: "/assets/images/foodA.png",
       deployed: "https://anikayoka.github.io/food-festival/",
       github: "https://github.com/anikayoka/food-festival",
       description:
@@ -51,7 +51,7 @@ const Projects = () => {
       deployed: "https://weareteam8.github.io/DineInside/",
       github: "https://github.com/weareteam8/DineInside",
       description:
-        "A site designed to allow users to create cocktails and meals in the comfort og their homes.",
+        "A site designed to allow users to create cocktails and meals in the comfort of their homes.",
     },
   ]);
 
@@ -65,7 +65,6 @@ const Projects = () => {
               <Card.Img
                 variant="top"
                 src={process.env.PUBLIC_URL + element.image}
-                alt={element.name}
               />
             </a>
             <Card.Body>
