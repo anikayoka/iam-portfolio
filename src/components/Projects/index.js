@@ -22,7 +22,7 @@ const Projects = () => {
         "An app where users can diagnose symtoms and have access to medical professionals.",
     },
     {
-      name: "Code Quiz",
+      name: "Budget Tracker",
       image: "./assets/images/quiz.png",
       deployed: " https://anikayoka.github.io/code-quiz/",
       github: "https://github.com/anikayoka/code-quiz",
