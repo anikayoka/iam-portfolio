@@ -206,7 +206,7 @@ footer {
   display: flex;
   justify-content: center;
   bottom: 0;
-  width: 100%;
+  width: 95%;
   color: var(--secondary);
   margin-top: -2.5%;
   margin-left: 2%;
