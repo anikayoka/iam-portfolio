@@ -38,12 +38,12 @@ const Projects = () => {
         "Progressive Web Application (PWA) designed for patrons of a food festival, allowing offline capabilities.",
     },
     {
-      name: "React Photo",
-      image: "/assets/images/photoA.png",
-      deployed: "https://anikayoka.github.io/react-photo-port/",
-      github: "https://github.com/anikayoka/react-photo-port",
+      name: "Pet Stuff Plus",
+      image: "/assets/images/pets.png",
+      deployed: "https://petstuffplus.herokuapp.com",
+      github: "https://github.com/project0301/paws",
       description:
-        "A single page application portfolio site built with React where users can view photographic work .",
+        "An e-commerce pet marketplace where users can create accounts to buy & sell new or used pet supplies.",
     },
     {
       name: "DineINside",
